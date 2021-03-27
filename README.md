@@ -6,6 +6,8 @@ I had too many Pages in my XSS Hunter Account and It's just annoying when I can'
 
 Any thing else that should be added? don't be lazy help me out! ;) 
 
+![alt text](https://github.com/MuhammadKhizerJaved/XSS-Hunter-Bluk-Delete/blob/main/Screenshot%202021-03-28%20at%202.27.27%20AM.png?raw=true)
+
 ## How to Use?
 
 - Go to chrome://extensions
