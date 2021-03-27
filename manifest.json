@@ -1,0 +1,25 @@
+{
+	"name": "XSS Hunter Mass Delete",
+  	"description": "A Simple Chrome Extension to Mass Delete XSS Hunter Payloads... something like this :)",
+
+	"manifest_version": 2,
+
+	"version": "0.1",
+  	"icons": {
+  		"16": "images/icon-16x16.png",
+  		"32": "images/icon-32x32.png",
+  		"64": "images/icon-64x64.png",
+  		"128": "images/icon-128x128.png"
+	},
+		"web_accessible_resources": ["delete5pages.js","delete25pages.js","delete50pages.js","delete100pages.js","delete500pages.js","alert.js"],
+  	"browser_action": {
+  		"default_icon": "images/icon-16x16.png",
+  		"default_popup": "./Delete.html",
+  		"default_title": "XSS Hunter Mass Delete"
+  	},
+  "permissions": [
+  	"https://xsshunter.com/app",
+    "cookies",
+    "activeTab"
+  ]
+}
